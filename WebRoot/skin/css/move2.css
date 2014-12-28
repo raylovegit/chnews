@@ -1,0 +1,10 @@
+*{font-size:12px; font-family:Verdana;margin:0;padding:0}   
+.play img {border:0px}   
+.play {width:360px;height:270px;overflow:hidden;margin:0px 0 0 0px;}   
+.play_info{position:absolute;margin-top:240px;padding:8px 0 0 0px;height:30px;width:360px;color:#fff;z-index:1001;cursor:pointer}   
+.play_info b{font-size:14px;display:block}   
+.play_bg {position:absolute;background-color:#000;margin-top:240px;height:30px;width:360px;filter: Alpha(Opacity=30);opacity:0.3;z-index:1000}   
+.play_text {position:absolute;margin:255px 0 0 265px;height:20px;width:100px;z-index:500}  //控制显示数字区域的层
+.play_text ul {list-style-type:none; width:60px;height:14px;display:block;padding-top:1px;_padding-top:0px;filter: Alpha(Opacity=80);opacity:0.8;}   
+.play_text ul li{width:14px;height:14px;float:left;background-color:#000;display:block;color:#999999;text-align:center;margin:0px;cursor:pointer;font-family:"Courier New";font-size:"16px;"}   
+.play_list a{display:block;width:360px;height:270px;position:absolute;overflow:hidden}   

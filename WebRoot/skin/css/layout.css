@@ -1,0 +1,155 @@
+﻿@charset "utf-8";
+
+body{ font-size:12px; padding:0; margin:0;
+}
+h1{ font-size:14px; font-weight:bold; float:left; margin:1px 0 0 5px; padding:0;
+
+}
+a{color:#000; text-decoration:none;
+}
+a:link{color:#FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+/*头部*/
+#header { width:1000px; height:200px; margin:0 auto;padding:0; 
+}
+#header #banner { width:996px; height:162px; background:url(../images/frame/banner.gif); margin:0 auto;
+}
+#header #banner .subTitle { width:200px; height:20px; float:right; margin-top:15px;
+}
+#header #banner .weather { width:170px; height:20px; float:left; margin-top:135px; margin-left:60px;
+}
+#header #banner #time { width:350px; height:20px; float:left; margin-top:138px; margin-left:5px;
+}
+#header #nav { width:996px; height:38px;  background:#3797DC; margin:0 auto; color:white; font-size:15px; font-weight:bold; text-align:center; line-height:37px;  
+}
+#header #nav ul {width:996px; list-style:none; margin:0 auto; padding:0;
+}
+#header #nav li { float:left; margin:0; padding:0;padding-left:1px; width:81px; 
+}
+#header #nav li a{font-size:15px;
+}
+
+
+/*页面主体*/
+#main { width:996px; margin:10px auto;margin-bottom:10px;
+}
+
+/*左边*/
+#main #left { width:226px; float:left; background:#F0F0F0; padding:2px 2px 60px 2px;
+}
+#main #left .leftNews a{color:#000;}
+/*教育论坛*/
+#main #left .leftNews { width:224px; border:1px solid #CCCCCC; margin-bottom:8px;float:left;
+}
+#main #left .leftNews .title { width:220px; height:26px;background:url(../images/frame/bt.gif) no-repeat; line-height:26px; padding-left:4px;
+}
+#main #left .leftNews .content { margin-left:10px; padding-left:10px; list-style:none;
+}
+#main #left .leftNews .content li {width:180px; height:25px;float:left;line-height:20px;margin:0; padding:0; 
+}
+.test{ }
+/*友情链接*/
+#main #left .leftNews #link { width:200px; margin:5px auto;
+}
+.tab{float:left;height:20px;}
+.tab1{float:right;height:20px;}
+p{margin-top:3px;padding:0;
+/*图片链接*/
+}#main #left #img { width:224px; text-align:center; margin-top:10px;
+}
+
+/*右边*/
+#main #right {width:760px; float:right;padding-bottom:10px;
+}
+/*右上*/
+#main #right #rightU { width:760px;  float:right;
+}
+/*图片新闻*/
+#main #right #rightU #pic { width:365px; padding:5px; float:left; border:1px #C6C2BB solid;
+}
+/*学校要闻*/
+#main #right #rightU a{color:#000;}
+#main #right #rightU .schoolNews { width:365px;height:300px;padding:5px; float:right;border:1px #C6C2BB solid;
+}
+ .bt { width:360px; height:25px; border-bottom:1px #DDDAD5 solid; padding-bottom:5px; line-height:21px;
+}
+
+ .detail {margin-left:20px; padding-left:10px; list-style:none;
+}
+ .detail li {width:325px; height:25px;line-height:25px;margin:0; padding:0; list-style-image: url(../images/frame/tb.gif);  border-bottom:1px #C6C2BB  dashed;
+}
+/*右中上*/
+#main #right #rightM1 a{color:#000;}
+#main #right #rightM1{
+	width:760px; float:right; margin-top:15px;
+	
+}
+
+/*综合新闻*/
+
+.generalNews {width:365px; padding:5px; float:left;border:1px #C6C2BB solid;
+}
+.detai2 {margin-left:20px; padding-left:10px; list-style:none;
+}
+ .detai2 li {width:325px; height:25px;margin:0; padding:0;line-height:25px; list-style-image: url(../images/frame/tb1.gif);border-bottom:1px #C6C2BB  dashed;
+}
+/*磁湖言论*/
+.generalNews1 a{color:#000;}
+.generalNews1 {width:365px; padding:5px; float:right;border:1px #C6C2BB solid;
+}
+/*让日期靠右*/
+ .date{ float:right; text-align:right;margin-right:2px;
+}
+/*右中下*/
+#main #right #rightM2 {width:760px;float:right; margin-top:15px;
+
+}
+/*图片新闻*/
+#main #right #rightM2 .generalNews2 a{color:#000;}
+#main #right #rightM2 .generalNews2 {width:365px; padding:5px; float:left;border:1px #C6C2BB solid;
+}
+/*时政要闻*/
+#main #right #rightM2 .generalNews3 a{color:#000;}
+#main #right #rightM2 .generalNews3 {width:365px; padding:5px; float:right;border:1px #C6C2BB solid;
+}
+/*美丽校园*/
+#main #right #rightD { width:760px; height:120px; float:right; background:url(../images/frame/bj.gif);margin-top:5px;
+}
+/*footer*/
+#footer { width:1000px; height:40px; padding-top:15px; text-align:center; background:#CFD1D3; margin:0px auto; line-height:120%; clear:both;
+}
+/*美丽校园图片滚动*/
+/* 模板无忧 搜集整理 www.Mb5u.com */
+#NewsPic {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 360px; PADDING-TOP: 0px; POSITION: relative; TOP: 3px; HEIGHT: 300px; BORDER-RIGHT-WIDTH: 0px; }
+#NewsPicTxt {	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 0px; MARGIN: 3px auto 0px; WIDTH: 355px; COLOR: black; PADDING-TOP: 0px; FONT-FAMILY: Sans-Serif; POSITION: relative; HEIGHT: 0px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 1px}
+#NewsPicTxt A {	COLOR: black; TEXT-DECORATION: none}
+#NewsPicTxt A:hover {	COLOR: black; TEXT-DECORATION: none}
+#NewsPicTxt A:visited {	COLOR: black; TEXT-DECORATION: none}
+#NewPicTxt A:link {	COLOR: black; TEXT-DECORATION: none}
+#NewsPicTxt A:hover {	COLOR: red}
+#NewsPic A {	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none}
+#NewsPic A:hover {	TEXT-DECORATION: none}
+#NewPic A:visited {	TEXT-DECORATION: none}
+#NewsPic .Picture {
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	LEFT: 1px;
+	BORDER-LEFT: #ffffff 1px solid;
+	WIDTH: 355px;
+	BORDER-BOTTOM: #ffffff 1px solid;
+	POSITION: absolute;
+	TOP: -3px;
+	HEIGHT: 100%
+}
+#NewsPic .Nav {	RIGHT: 5px; WIDTH: 100%; BOTTOM: 3px; POSITION: absolute; HEIGHT: 12px}
+#NewsPic .Nav SPAN {	DISPLAY: block; BACKGROUND: #000000; FLOAT: right; FONT: 10px Courier; BORDER-LEFT: #ffffff 1px solid; WIDTH: 24px; CURSOR: hand; COLOR: #ffffff; HEIGHT: 100%; TEXT-ALIGN: center}
+#NewsPic .Nav SPAN.Cur {	BACKGROUND: #019fe8; COLOR: white}
+#NewsPic .Nav SPAN.Normal {	BACKGROUND: #000000; FILTER: Alpha(opacity=50); COLOR: white; opacity: .5}
+#NewsPic .Nav SPAN A {	DISPLAY: block; WIDTH: 100%; COLOR: white; POSITION: relative; HEIGHT: 100%}
+#NewsPic .Nav SPAN A:hover {	CURSOR: hand}
